@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Smartphones (portrait and landscape) */
+@media (max-width: 767px) {
+
+    header > nav{
+        width: 100%;
+        height: 102px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid orange;
+    }
+    header > nav > .sub-nav{
+        width: 100%;
+        height: 60px;
+        margin: 10px;
+    }
+    .menu-box{
+        display: none;
+    }
+    .button-box{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+
+    .home-part{
+        margin-top: 30px;
+        width: 100%;
+        height: 735px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-part > .sub-section{
+        width: 100%;
+        height: 725px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-part > .sub-section .boy-box{
+    order: -1;
+   }
+   .home-part >  .sub-section .text-box{
+    margin-top: 10px;
+    width: 357px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+   .home-part  > .sub-section .text-box p{
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 0px;
+   }
+   .home-part > .sub-section .text-box h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+   }
+   .home-part  > .sub-section button{
+    width: 131px;
+    height: 42px;
+    border-radius: 8px;
+background: rgb(17, 17, 17);
+color: white;
+border: none;
+font-size: 0.9rem;
+
+}
+
+
+.crclm-part{
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+   
+}
+
+.crclm-part .sub-crclm{
+    width: 80%;
+    height: 100%;
+    display: flex;
+  align-items: center;
+}
+.crclm-part .sub-crclm .crclm-boxes{
+    display: grid;
+    width: fit-content;
+    gap: 20px;
+}
+
+.crclm-part .sub-crclm h1{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 2.4rem;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
+}
+.crclm-part .sub-crclm .arrow-box{
+    display: none;
+}
+
+
+.stories-part{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stories-part .sub-stories{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.stories-part .sub-stories .story1{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.stories-part .sub-stories .story2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.stories-part .sub-stories .story2 .stories{
+    width: 190px;
+    height: 220px;
+    background-color: white;
+}
+.stories-part .sub-stories .story2 .stories img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.stories-part .sub-stories .story2 .stories p{
+    margin-top: 0px;
+    font-size: 0.6rem;
+    margin-left: 12px;
+}
+.stories-part .sub-stories .story2 .stories:nth-child(1) button{
+    background-color: blue;
+    width: 103px;
+    height: 28px;
+    font-size: 0.6rem;
+}
+.stories-part .sub-stories .story2 .stories:nth-child(2) button{
+    background-color: blue;
+    width: 103px;
+    height: 28px;
+    font-size: 0.6rem;
+}
+.stories-part .sub-stories .story2 .stories:nth-child(3) button{
+    background-color: blue;
+    width: 103px;
+    height: 28px;
+    font-size: 0.6rem;
+}
+.stories-part .sub-stories .story2 .stories:nth-child(4) button{
+    background-color: blue;
+    width: 103px;
+    height: 28px;
+    font-size: 0.6rem;
+}
+.stories-part > button{
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: left;
+}
+footer .container .box:nth-child(2){
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: left;
+    margin-left: 0px;
+}
+footer .container .box:nth-child(1){
+    margin-left: 40px;
+}
+footer .container .box:nth-child(3){
+    margin-left: 40px;
+}
+
+}
+/*======================================================================= */
+
+
+
+
+/* Tablets (portrait and landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+body{
+    overflow: auto;
+}
+    header > nav{
+        width: 100%;
+        height: 102px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header > nav > .sub-nav{
+        width: 100%;
+        height: 60px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    header > nav > .sub-nav > .logo-box h2{
+        display: none;
+    }
+    .menu-box{
+        display: block;
+    }
+    .button-box{
+        display: block;
+    }
+    .menu-btn{
+        display: none;
+    }
+
+    section{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-part > .sub-section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .home-part > .sub-section .text-box h1{
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .home-part > .sub-section .text-box p{
+        font-size: 1.2rem;
+    }
+
+  
+}
+/* ========================================================================= */
+
+
+
+
+/* Laptops */
+/* @media (min-width: 1025px) and (max-width: 1366px) {
+
+
+} */
